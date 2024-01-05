@@ -1,7 +1,7 @@
 {
   "name": "pillar",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -34,5 +34,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Full stack web app for practice",
+  "main": "index.js",
+  "repository": "git@github.com:green47336/pillar.git",
+  "author": "alexgreen <alex.green407@gmail.com>",
+  "license": "MIT"
 }
