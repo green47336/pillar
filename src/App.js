@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState } from "react";
+import { Button } from "@mui/material";
 
 function App() {
+  const [clickCount, addClickCount] = useState(0);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>Hello. I'm Alex. Thanks for checking out my web app.</p>
+      <Button variant="contained" onClick={() => addClickCount(clickCount + 1)}>
+        {`This has been clicked ${clickCount} times!`}
+      </Button>
     </div>
   );
 }
