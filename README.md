@@ -1,1 +1,1 @@
-Full stack web app for practice.
+Dockerized React/Django app for practice.
