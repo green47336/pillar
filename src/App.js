@@ -6,9 +6,15 @@ function App() {
   const [clickCount, addClickCount] = useState(0);
   return (
     <div className="App">
-      <p>Hello. I'm Alex. Thanks for checking out my web app.</p>
+      <p>Richard "Alex" Green</p>
+      <p>
+        Full-stack web engineer with a background in human resources and
+        operations. Proficient in JavaScript and Python having created and
+        contributed to React and Django apps. Energetic and eager to meet any
+        challenge.
+      </p>
       <Button variant="contained" onClick={() => addClickCount(clickCount + 1)}>
-        {`This has been clicked ${clickCount} times!`}
+        {`${clickCount}`}
       </Button>
     </div>
   );
